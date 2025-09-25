@@ -1,23 +1,24 @@
 # 🌍 World Travel - Flutter App
 
-**World Travel** is a simple Flutter application that demonstrates modern **Authentication UI** design, including the following screens:
-- Login  
-- Signup  
-- Forget Password  
-- Verify Code  
-- Welcome  
-- Onboarding  
-- Splash  
+[![Flutter](https://img.shields.io/badge/Flutter-3.29-blue)](https://flutter.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Khaled-Kamal/world_travel?style=social)](https://github.com/Khaled-Kamal/world_travel/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Khaled-Kamal/world_travel?style=social)](https://github.com/Khaled-Kamal/world_travel/network/members)
+
+**World Travel** is a modern Flutter application showcasing **Authentication UI design** with clean code architecture and reusable widgets.  
+
+📺 **Watch the full tutorial on YouTube**:  
+[![YouTube Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)
 
 ---
 
 ## ✨ Features
 
-- 🚀 **Splash screen** with a smooth welcome experience  
-- 📝 **Onboarding screen** with sliding introduction pages  
-- 🔐 Modern **Login / Signup** interfaces  
-- 📧 **Password reset** with verification code input  
-- 🎨 Custom reusable widgets such as:  
+- 🚀 Beautiful **Splash Screen**  
+- 📝 Interactive **Onboarding** with multiple slides  
+- 🔐 **Login / Signup** with clean UI  
+- 📧 **Forgot Password + Verify Code flow**  
+- 🎨 Reusable custom widgets:
   - `CustomContainer`  
   - `CustomText`  
   - `CustomTextField`  
@@ -60,26 +61,19 @@
 
 ## ⚙️ Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/world_travel.git
+```bash
+# Clone the repository
+git clone https://github.com/Khaled-Kamal/world_travel.git
+
+# Navigate to the project folder
+cd world_travel
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
 ````
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd world_travel
-   ```
-3. Install the dependencies:
-
-   ```bash
-   flutter pub get
-   ```
-4. Run the app:
-
-   ```bash
-   flutter run
-   ```
 
 ---
 
@@ -108,10 +102,6 @@ lib/
 ## 👨‍💻 Author
 
 * Developed by **Khaled Kamal**
-* 🌐 GitHub: [Khaled Kamal]([https://github.com/your-username](https://github.com/Khaled-Kamal))
+* 🌐 GitHub: [Khaled-Kamal](https://github.com/Khaled-Kamal)
 
----
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
