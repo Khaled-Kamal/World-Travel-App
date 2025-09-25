@@ -1,83 +1,85 @@
-# 🌍 World Travel App
+# 🌍 World Travel - Flutter App
 
-
-
-<p align="center">
-  <b>A modern Flutter application with Onboarding, Authentication, OTP Verification, and a simple Home Page.</b>  
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-3.19-blue?logo=flutter" />
-  <img src="https://img.shields.io/badge/Dart-3.9.2-blue?logo=dart" />
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" />
-</p>
-
----
-
-## 📖 About the Project
-World Travel App is a **Flutter-based mobile app** designed to demonstrate essential authentication flows including **login, signup, forgot password, OTP verification**, along with **onboarding screens** and a welcoming **home page**.  
-
-The project focuses on **clean UI**, **smooth navigation**, and **modern design practices** using Flutter.
+**World Travel** is a simple Flutter application that demonstrates modern **Authentication UI** design, including the following screens:
+- Login  
+- Signup  
+- Forget Password  
+- Verify Code  
+- Welcome  
+- Onboarding  
+- Splash  
 
 ---
 
 ## ✨ Features
-- 🚀 **Splash Screen** with app branding  
-- 📖 **Onboarding Screens** with illustrations & titles  
-- 🔑 **Login & Signup** with custom input fields  
-- 🔒 **Forgot Password** flow with email input  
-- 🔢 **OTP Verification** (4-digit code + resend timer)  
-- 🏠 **Home Page** after successful login  
-- 🎨 Clean UI using **Google Fonts & Material Design**
 
----
-
-## 🛠️ Tech Stack
-- **Flutter** (Dart SDK ^3.9.2)  
-- **Google Fonts** → typography customization  
-- **Pin Code Fields** → OTP input field  
-- **Gap Package** → spacing helper  
+- 🚀 **Splash screen** with a smooth welcome experience  
+- 📝 **Onboarding screen** with sliding introduction pages  
+- 🔐 Modern **Login / Signup** interfaces  
+- 📧 **Password reset** with verification code input  
+- 🎨 Custom reusable widgets such as:  
+  - `CustomContainer`  
+  - `CustomText`  
+  - `CustomTextField`  
 
 ---
 
 ## 📸 Screenshots
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/51ac5fc7-cb0e-4483-b415-a66314da6f86" width="200"/>
-  <img src="https://github.com/user-attachments/assets/04c497dc-0529-46a8-bc9f-c79f7dca2ea3" width="200"/>
-  <img src="https://github.com/user-attachments/assets/f7e29928-2a5a-44a6-8f33-8a6ae0beb5c1" width="200"/>
-  <img src="https://github.com/user-attachments/assets/f1da7dbb-d621-441b-ac51-41f14ea9d9de" width="200"/>
+  <img src="https://github.com/user-attachments/assets/1273c740-8329-4e6d-ace0-045d2db0605c" width="200"/>
+  <img src="https://github.com/user-attachments/assets/155099fa-9fcf-4d64-9519-cbbc8a2bc47d" width="200"/>
+  <img src="https://github.com/user-attachments/assets/46045ce0-15d0-47be-9527-a8dd475ef18f" width="200"/>
+  <img src="https://github.com/user-attachments/assets/c093bd21-b8b1-4042-949d-eefcc0081fe6" width="200"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/77918a5f-0e37-44c4-b0eb-76c57ac8e910" width="200"/>
-  <img src="https://github.com/user-attachments/assets/43edf804-3bc7-4f77-bacc-c0e26fbd4b3e" width="200"/>
-  <img src="https://github.com/user-attachments/assets/2e19f194-3031-4567-a3a8-59bc7ef3c3b7" width="200"/>
-  <img src="https://github.com/user-attachments/assets/6cd0bd64-13e1-469c-8569-a03e5f7c883f" width="200"/>
-  <img src="https://github.com/user-attachments/assets/4eb0fd54-9d76-4bf1-89fa-877dc60e214e" width="200"/>
+  <img src="https://github.com/user-attachments/assets/e19fdb00-d9bc-44ab-8ded-07cd96d6e0d3" width="200"/>
+  <img src="https://github.com/user-attachments/assets/a728cc5a-2ae6-4733-a6ed-e8d616285d84" width="200"/>
+  <img src="https://github.com/user-attachments/assets/d14d992c-6042-4169-93d5-8d48c8188de6" width="200"/>
+  <img src="https://github.com/user-attachments/assets/6a2ec629-f57f-415b-94d5-56942fc4b694" width="200"/>
 </p>
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Requirements
 
-### 1️⃣ Clone the repo
-```bash
-git clone https://github.com/username/world_travel_app.git
-cd world_travel_app
+- Flutter SDK `>=3.29.0`  
+- Dart SDK `>=3.9.2 <4.0.0`  
+
+---
+
+## 📦 Packages Used
+
+- [google_fonts](https://pub.dev/packages/google_fonts)  
+- [gap](https://pub.dev/packages/gap)  
+- [pin_code_fields](https://pub.dev/packages/pin_code_fields)  
+- [cupertino_icons](https://pub.dev/packages/cupertino_icons)  
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/world_travel.git
 ````
 
-### 2️⃣ Install dependencies
+2. Navigate to the project directory:
 
-```bash
-flutter pub get
-```
+   ```bash
+   cd world_travel
+   ```
+3. Install the dependencies:
 
-### 3️⃣ Run the app
+   ```bash
+   flutter pub get
+   ```
+4. Run the app:
 
-```bash
-flutter run
-```
+   ```bash
+   flutter run
+   ```
 
 ---
 
@@ -85,28 +87,31 @@ flutter run
 
 ```
 lib/
- ├── main.dart
- ├── Pages/
- │   ├── splash.dart
- │   ├── onboarding.dart
- │   ├── login.dart
- │   ├── signup.dart
- │   ├── homePage.dart
- │   ├── froget_password.dart
- │   ├── verifyPage.dart
- ├── Widgets/
- │   └── custom_textfiled.dart
- ├── Models/
- │   └── onboarding_data.dart
-assets/
- ├── images & icons
+│── Pages/
+│   ├── Login.dart
+│   ├── SignUp.dart
+│   ├── ForgetPassword.dart
+│   ├── VerifyPage.dart
+│   ├── Onboarding.dart
+│   └── Splash.dart
+│
+│── Widgets/
+│   ├── CustomContainer.dart
+│   ├── CustomText.dart
+│   └── CustomTextField.dart
+│
+└── main.dart
 ```
 
 ---
 
-## 🔮 Future Improvements
+## 👨‍💻 Author
 
-* ✅ Firebase Authentication Integration
-* ✅ Backend API for real user management
-* ✅ Dark Mode Support
-* ✅ Multi-language (i18n) support
+* Developed by **Khaled Kamal**
+* 🌐 GitHub: [Khaled Kamal]([https://github.com/your-username](https://github.com/Khaled-Kamal))
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
