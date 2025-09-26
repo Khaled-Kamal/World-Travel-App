@@ -100,5 +100,7 @@ lib/
 
 * Developed by **Khaled Kamal**
 * 🌐 GitHub: [Khaled-Kamal](https://github.com/Khaled-Kamal)
+* 🎥 Check out the full explanation on YouTube → [Watch Here](https://youtu.be/dTnpRuklJMs?si=LDprheFKBlI4gVvD)
+
 
 
