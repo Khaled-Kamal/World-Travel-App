@@ -8,7 +8,7 @@
 **World Travel** is a modern Flutter application showcasing **Authentication UI design** with clean code architecture and reusable widgets.  
 
 📺 **Watch the full tutorial on YouTube**:  
-[![YouTube Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)
+[![YouTube Video]([https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID](https://youtu.be/dTnpRuklJMs?si=S-AszoqG19cY-oMH))
 
 ---
 
