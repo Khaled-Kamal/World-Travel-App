@@ -96,7 +96,7 @@ lib/
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 * Developed by **Khaled Kamal**
 * 🌐 GitHub: [Khaled-Kamal](https://github.com/Khaled-Kamal)
